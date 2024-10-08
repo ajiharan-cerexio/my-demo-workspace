@@ -1,3 +1,6 @@
-<button (click)="onClick.emit()" [class]="'btn ' + styleClass">
+<button
+  (click)="onClick.emit()"
+  [class]="'btn border-round-sm border-none p-2 ' + styleClass"
+>
   {{ label }}
 </button>

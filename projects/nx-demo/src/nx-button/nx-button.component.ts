@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
-  selector: 'lib-nx-button',
+  selector: 'nx-button',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './nx-button.component.html',

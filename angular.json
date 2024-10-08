@@ -23,7 +23,10 @@
             }
           },
           "defaultConfiguration": "production",
-          "styles": ["./node_modules/primeflex/primeflex.css"]
+          "styles": [
+            "./node_modules/primeflex/primeflex.css",
+            "./node_modules/primeflex/themes/primeone-light.css"
+          ]
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -40,7 +43,10 @@
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "projects/nx-demo"],
             "port": 6006,
-            "styles": ["./node_modules/primeflex/primeflex.css"]
+            "styles": [
+              "./node_modules/primeflex/primeflex.css",
+              "./node_modules/primeflex/themes/primeone-light.css"
+            ]
           }
         },
         "build-storybook": {
@@ -51,7 +57,10 @@
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "projects/nx-demo"],
             "outputDir": "storybook-static",
-            "styles": ["./node_modules/primeflex/primeflex.css"]
+            "styles": [
+              "./node_modules/primeflex/primeflex.css",
+              "./node_modules/primeflex/themes/primeone-light.css"
+            ]
           }
         }
       }

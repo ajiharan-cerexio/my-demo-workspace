@@ -16,18 +16,13 @@
     "declaration": false,
     "experimentalDecorators": true,
     "paths": {
-      "nx-demo": [
-        "./dist/nx-demo"
-      ]
+      "nx-demo": ["./dist/nx-demo"]
     },
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
