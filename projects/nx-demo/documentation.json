@@ -1,0 +1,386 @@
+{
+    "pipes": [],
+    "interfaces": [],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [],
+    "modules": [],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "Danger_button",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Danger',\r\n    styleClass: 'danger',\r\n  },\r\n}"
+            },
+            {
+                "name": "DangerButton",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    showDangerButton: true,\r\n  },\r\n}"
+            },
+            {
+                "name": "Default_button",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Default',\r\n  },\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<AlertDemoComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Alert',\r\n  component: AlertDemoComponent,\r\n  tags: ['autodocs'],\r\n  render: (args) => ({ props: args }),\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<NxButtonComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: NxButtonComponent,\r\n  tags: ['autodocs'],\r\n\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn(), label: 'Simple Button' },\r\n}"
+            },
+            {
+                "name": "preview",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/.storybook/preview.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Preview",
+                "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n}"
+            },
+            {
+                "name": "Success_button",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Success',\r\n    styleClass: 'success',\r\n  },\r\n}"
+            },
+            {
+                "name": "successBtn",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    showSuccessButton: true,\r\n  },\r\n}"
+            },
+            {
+                "name": "Warning_button",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Warning',\r\n    styleClass: 'warning',\r\n  },\r\n}"
+            },
+            {
+                "name": "WarningButton",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    showWarningButton: true,\r\n  },\r\n}"
+            }
+        ],
+        "functions": [],
+        "typealiases": [
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<AlertDemoComponent>",
+                "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<NxButtonComponent>",
+                "file": "projects/nx-demo/src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            }
+        ],
+        "enumerations": [],
+        "groupedVariables": {
+            "projects/nx-demo/src/stories/button.stories.ts": [
+                {
+                    "name": "Danger_button",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Danger',\r\n    styleClass: 'danger',\r\n  },\r\n}"
+                },
+                {
+                    "name": "Default_button",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Default',\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<NxButtonComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: NxButtonComponent,\r\n  tags: ['autodocs'],\r\n\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn(), label: 'Simple Button' },\r\n}"
+                },
+                {
+                    "name": "Success_button",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Success',\r\n    styleClass: 'success',\r\n  },\r\n}"
+                },
+                {
+                    "name": "Warning_button",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Warning',\r\n    styleClass: 'warning',\r\n  },\r\n}"
+                }
+            ],
+            "projects/nx-demo/src/stories/alert.stories.ts": [
+                {
+                    "name": "DangerButton",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    showDangerButton: true,\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<AlertDemoComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Alert',\r\n  component: AlertDemoComponent,\r\n  tags: ['autodocs'],\r\n  render: (args) => ({ props: args }),\r\n}"
+                },
+                {
+                    "name": "successBtn",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    showSuccessButton: true,\r\n  },\r\n}"
+                },
+                {
+                    "name": "WarningButton",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    showWarningButton: true,\r\n  },\r\n}"
+                }
+            ],
+            "projects/nx-demo/.storybook/preview.ts": [
+                {
+                    "name": "preview",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/nx-demo/.storybook/preview.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Preview",
+                    "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/i,\n      },\n    },\n  },\n}"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {
+            "projects/nx-demo/src/stories/alert.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<AlertDemoComponent>",
+                    "file": "projects/nx-demo/src/stories/alert.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "projects/nx-demo/src/stories/button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<NxButtonComponent>",
+                    "file": "projects/nx-demo/src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ]
+        }
+    },
+    "routes": [],
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "projects/nx-demo/.storybook/preview.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "preview",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/alert.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "DangerButton",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/alert.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/alert.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "successBtn",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/alert.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WarningButton",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Danger_button",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default_button",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Success_button",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/nx-demo/src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Warning_button",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}

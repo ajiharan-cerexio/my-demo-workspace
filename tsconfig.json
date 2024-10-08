@@ -15,6 +15,11 @@
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
+    "paths": {
+      "nx-demo": [
+        "./dist/nx-demo"
+      ]
+    },
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",

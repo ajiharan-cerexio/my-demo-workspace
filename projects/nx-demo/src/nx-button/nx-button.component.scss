@@ -1,0 +1,20 @@
+.btn {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(84, 116, 220);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.danger {
+  background-color: rgb(225, 69, 69);
+}
+
+.success {
+  background-color: rgb(67, 160, 112);
+}
+
+.warning {
+  background-color: rgb(217, 210, 69);
+}

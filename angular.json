@@ -3,5 +3,61 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "nx-demo": {
+      "projectType": "library",
+      "root": "projects/nx-demo",
+      "sourceRoot": "projects/nx-demo/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/nx-demo/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/nx-demo/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/nx-demo/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production",
+          "styles": ["./node_modules/primeflex/primeflex.css"]
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/nx-demo/tsconfig.spec.json",
+            "polyfills": ["zone.js", "zone.js/testing"]
+          }
+        },
+        "storybook": {
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "configDir": "projects/nx-demo/.storybook",
+            "browserTarget": "nx-demo:build",
+            "compodoc": true,
+            "compodocArgs": ["-e", "json", "-d", "projects/nx-demo"],
+            "port": 6006,
+            "styles": ["./node_modules/primeflex/primeflex.css"]
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular:build-storybook",
+          "options": {
+            "configDir": "projects/nx-demo/.storybook",
+            "browserTarget": "nx-demo:build",
+            "compodoc": true,
+            "compodocArgs": ["-e", "json", "-d", "projects/nx-demo"],
+            "outputDir": "storybook-static",
+            "styles": ["./node_modules/primeflex/primeflex.css"]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "c072637e-9d5e-4486-8f7a-f6b784ed4359"
   }
 }
